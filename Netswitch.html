@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NextSwix – Watch Movies & Series</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <!-- Nav -->
+        <header class="nav">
+            <div class="nav-bar">
+                <div class="nav-left">
+                    <div class="logo">
+                        <div class="logo-mark">N</div>
+                        <div>
+                            <div class="logo-text-main">NextSwix</div>
+                            <div class="logo-text-sub">Watch everything. Anywhere.</div>
+                        </div>
+                    </div>
+                    <nav class="nav-links" aria-label="Primary">
+                        <span class="nav-link nav-link--active">Home</span>
+                        <span class="nav-link">Series</span>
+                        <span class="nav-link">Movies</span>
+                        <span class="nav-link">My List</span>
+                    </nav>
+                </div>
+                <div class="nav-right">
+                    <button class="icon-btn" aria-label="Search">🔍</button>
+                    <button class="icon-btn" aria-label="Notifications">🔔</button>
+                    <button class="profile-pill">
+                        <span class="profile-avatar">JB</span>
+                        <span class="profile-name">Dev JB</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero -->
+        <section class="shell-row hero-shell">
+            <div class="shell-content">
+                <article class="hero" aria-label="Featured title">
+                    <div class="hero-bg"></div>
+                    <div class="hero-overlay"></div>
+                    <div class="hero-body">
+                        <div class="hero-content">
+                            <div class="hero-tag">
+                                <span>Top 10 in Nigeria Today</span>
+                                <span style="font-size:0.6rem;color:#facc15;">#2</span>
+                            </div>
+                            <h1 class="hero-title">Nightfall City: Neon Echoes</h1>
+                            <div class="hero-meta" aria-label="Title attributes">
+                                <span class="hero-chip">16+</span>
+                                <span class="hero-chip">HD</span>
+                                <span class="hero-chip">2h 05m</span>
+                            </div>
+                            <p class="hero-desc">
+                                A retired fixer is dragged back into the neon underworld when a ghost from his past
+                                hijacks the city’s AI grid.
+                            </p>
+                            <div class="hero-actions">
+                                <button class="btn-hero-primary" id="playHeroBtn">
+                                    <span class="btn-hero-icon">▶</span>
+                                    <span>Play</span>
+                                </button>
+                                <button class="btn-hero-secondary">
+                                    <span class="btn-hero-icon">ℹ</span>
+                                    <span>More Info</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sections -->
+        <section class="shell-row sections-shell">
+            <div class="shell-content">
+                <!-- Continue Watching -->
+                <div class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">Continue Watching for JB</h2>
+                        <span class="section-subtitle">Pick up where you left off</span>
+                    </div>
+                    <div class="row">
+                        <article class="card" data-title="Nightfall City: Neon Echoes">
+                            <div class="card-poster"
+                                style="background-image:url('https://images.pexels.com/photos/7991373/pexels-photo-7991373.jpeg?auto=compress&cs=tinysrgb&w=900');">
+                                <div class="card-gradient"></div>
+                                <div class="card-badge">S1 · E3</div>
+                                <div class="card-actions">
+                                    <button class="card-action-btn" title="Play">▶</button>
+                                    <button class="card-action-btn" title="Add to List">＋</button>
+                                </div>
+                                <div class="card-info">
+                                    <div class="card-title">Nightfall City</div>
+                                    <div class="card-meta">
+                                        <span>35m left</span>
+                                        <span>Thriller</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card" data-title="Last Signal Home">
+                            <div class="card-poster"
+                                style="background-image:url('https://images.pexels.com/photos/7990911/pexels-photo-7990911.jpeg?auto=compress&cs=tinysrgb&w=900');">
+                                <div class="card-gradient"></div>
+                                <div class="card-badge">Movie</div>
+                                <div class="card-actions">
+                                    <button class="card-action-btn" title="Play">▶</button>
+                                    <button class="card-action-btn" title="Add to List">＋</button>
+                                </div>
+                                <div class="card-info">
+                                    <div class="card-title">Last Signal Home</div>
+                                    <div class="card-meta">
+                                        <span>1h 12m</span>
+                                        <span>Sci‑Fi</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card" data-title="Concrete Dreams">
+                            <div class="card-poster"
+                                style="background-image:url('https://images.pexels.com/photos/7991145/pexels-photo-7991145.jpeg?auto=compress&cs=tinysrgb&w=900');">
+                                <div class="card-gradient"></div>
+                                <div class="card-badge">S2 · E5</div>
+                                <div class="card-actions">
+                                    <button class="card-action-btn" title="Play">▶</button>
+                                    <button class="card-action-btn" title="Add to List">＋</button>
+                                </div>
+                                <div class="card-info">
+                                    <div class="card-title">Concrete Dreams</div>
+                                    <div class="card-meta">
+                                        <span>22m left</span>
+                                        <span>Drama</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Trending Now -->
+                <div class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">Trending Now</h2>
+                        <span class="section-subtitle">Popular across NextSwix</span>
+                    </div>
+                    <div class="row">
+                        <article class="card" data-title="Midnight Circuit">
+                            <div class="card-poster"
+                                style="background-image:url('https://images.pexels.com/photos/6898859/pexels-photo-6898859.jpeg?auto=compress&cs=tinysrgb&w=900');">
+                                <div class="card-gradient"></div>
+                                <div class="card-badge">New</div>
+                                <div class="card-actions">
+                                    <button class="card-action-btn" title="Play">▶</button>
+                                    <button class="card-action-btn" title="Add to List">＋</button>
+                                </div>
+                                <div class="card-info">
+                                    <div class="card-title">Midnight Circuit</div>
+                                    <div class="card-meta">
+                                        <span>2025</span>
+                                        <span>Action</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card" data-title="Echoes of Tomorrow">
+                            <div class="card-poster"
+                                style="background-image:url('https://images.pexels.com/photos/6898852/pexels-photo-6898852.jpeg?auto=compress&cs=tinysrgb&w=900');">
+                                <div class="card-gradient"></div>
+                                <div class="card-badge">Top 10</div>
+                                <div class="card-actions">
+                                    <button class="card-action-btn" title="Play">▶</button>
+                                    <button class="card-action-btn" title="Add to List">＋</button>
+                                </div>
+                                <div class="card-info">
+                                    <div class="card-title">Echoes of Tomorrow</div>
+                                    <div class="card-meta">
+                                        <span>1h 48m</span>
+                                        <span>Sci‑Fi</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card" data-title="Underworld Lines">
+                            <div class="card-poster"
+                                style="background-image:url('https://images.pexels.com/photos/6898851/pexels-photo-6898851.jpeg?auto=compress&cs=tinysrgb&w=900');">
+                                <div class="card-gradient"></div>
+                                <div class="card-badge">Season 1</div>
+                                <div class="card-actions">
+                                    <button class="card-action-btn" title="Play">▶</button>
+                                    <button class="card-action-btn" title="Add to List">＋</button>
+                                </div>
+                                <div class="card-info">
+                                    <div class="card-title">Underworld Lines</div>
+                                    <div class="card-meta">
+                                        <span>Crime</span>
+                                        <span>HD</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card" data-title="Skyline Hearts">
+                            <div class="card-poster"
+                                style="background-image:url('https://images.pexels.com/photos/6898854/pexels-photo-6898854.jpeg?auto=compress&cs=tinysrgb&w=900');">
+                                <div class="card-gradient"></div>
+                                <div class="card-badge">Rom‑Com</div>
+                                <div class="card-actions">
+                                    <button class="card-action-btn" title="Play">▶</button>
+                                    <button class="card-action-btn" title="Add to List">＋</button>
+                                </div>
+                                <div class="card-info">
+                                    <div class="card-title">Skyline Hearts</div>
+                                    <div class="card-meta">
+                                        <span>1h 32m</span>
+                                        <span>Romance</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Browse by Category -->
+                <div class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">Browse by Category</h2>
+                        <span class="section-subtitle">Find your next story</span>
+                    </div>
+                    <div class="chips">
+                        <button class="chip">Thriller</button>
+                        <button class="chip">Sci‑Fi</button>
+                        <button class="chip">Drama</button>
+                        <button class="chip">Comedy</button>
+                        <button class="chip">Romance</button>
+                        <button class="chip">Action</button>
+                        <button class="chip">Nollywood</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-shell">
+            <div class="footer">
+                <div>© 2025 NextSwix. All rights reserved.</div>
+                <div class="footer-links">
+                    <span class="footer-link">Help</span>
+                    <span class="footer-link">Account</span>
+                    <span class="footer-link">Privacy</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="Webapp.js"></script>
+</body>
+
+</html>
